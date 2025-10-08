@@ -1,13 +1,14 @@
 import React from 'react';
 import {Layout} from "antd";
-import Header from "../../molecules/Header/Header";
+import MainBanner from "../../molecules/MainBanner/MainBanner";
+
 
 
 
 const Principal =()=>{
     return (
-        <Layout>
-            <Header/>
+        <Layout style={{justifyContent: "space-between", flexDirection: "row" }}>
+            <MainBanner/>
         </Layout>
     )
 }
