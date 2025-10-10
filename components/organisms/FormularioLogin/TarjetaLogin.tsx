@@ -43,7 +43,7 @@ const TarjetaLogin: React.FC<TarjetaLoginProps> = ({
                 styles={{ body: { padding: "32px 40px" } }}
             >
                 {/* Imagen superior */}
-                <div style={{ textAlign: "center", marginBottom: 16 }}>
+                <div style={{ display:"flex",textAlign: "center", marginBottom: 16, justifyContent: "center"}}>
                     <img
                         src={logoInterMunicipio} // ✅ usa la importación
                         alt="InterMunicipio"
